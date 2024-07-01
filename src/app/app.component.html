@@ -7,5 +7,15 @@
 <div class="ash">
       <h2> {{name}} </h2>
       <h2> {{email}} </h2>
+
+      <div class="component2" *ngIf="showHobbies()">
+            <h3>Hobbies: </h3>
+            <ul>
+                  <li *ngFor="let hobby of hobbies">
+                        {{hobby}}
+                  </li>
+            </ul>
+      </div>
+
       <h2> {{webpage}} </h2>
 </div>

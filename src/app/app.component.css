@@ -9,3 +9,10 @@
     background-color: #eee;
     color: black;
 }
+
+.component2 {
+    background-color: #eee;
+    color: red;
+    padding: 20px;
+    border-radius: 10px;
+}
