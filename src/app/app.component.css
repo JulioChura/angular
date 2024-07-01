@@ -26,3 +26,13 @@
     margin: 10px;
     border-radius: 15px;
 }
+
+.container {
+    margin: 0 auto;
+    background-color: rgb(185, 185, 185);
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
