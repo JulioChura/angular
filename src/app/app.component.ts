@@ -13,15 +13,17 @@ export class AppComponent {
   name: string;
   email;
   webpage: string;
-  hobbies : string[]
+  hobbies : string[];
+  showHobbies: boolean;
   constructor() {
     console.log("Constructor working...")
     this.name = "Julio Chura";
     this.email = "jchuraaca@unsa.edu.pe"
     this.webpage = "http://www.unsa.edu.pe"
     this.hobbies = ["Pintura", "Desarrollo Web", "Futbol", "Ajedrez"]
+    this.showHobbies  = false;
   }
-  showHobbies() {
-    return true;
+  toggleHobbies() {
+    this.showHobbies = !this.showHobbies;
   }
 }
