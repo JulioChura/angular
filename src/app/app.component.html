@@ -35,3 +35,11 @@
 </ul>
 <button (click)="sayHello()">Hazme click (desde app component)</button>
 <app-hello-world>Aqui</app-hello-world>
+
+
+<h2>Desde app.component</h2>
+<ul>
+      <li *ngFor="let user of users">
+            {{user}} <button (click)="deleteUser(user)" >Borrar usuario</button>
+      </li>
+</ul>
