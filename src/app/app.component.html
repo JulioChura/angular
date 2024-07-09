@@ -38,8 +38,14 @@
 
 
 <h2>Desde app.component</h2>
+
 <ul>
       <li *ngFor="let user of users">
             {{user}} <button (click)="deleteUser(user)" >Borrar usuario</button>
       </li>
 </ul>
+
+<form (submit)="addUser(newUser)">
+      <input type="text" #newUser>
+      <button>Agregar Usuario</button>
+</form>
