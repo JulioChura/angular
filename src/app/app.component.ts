@@ -27,6 +27,7 @@ export class AppComponent {
     this.showHobbies = !this.showHobbies;
   }
   newHobby(hobby : any) {
+    console.log(hobby)
     this.hobbies.push(hobby.value);
     hobby.value = ""
     return false;
