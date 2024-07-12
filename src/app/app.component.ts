@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { HelloWorldComponent } from './user/hello-world/hello-world.component';
 import { UserComponent } from '../user/user.component'; 
 
 @Component({
